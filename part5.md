@@ -398,7 +398,7 @@ local function factorial(n)
         error("n must be non-negative")
     end
 
-    if n == 0 then
+    if n <= 1 then
         return 1
     end
 
@@ -494,7 +494,7 @@ local function factorial(n)
     end
 
     local function fact(n, res)
-        if n == 0 then
+        if n <= 1 then
             return res
         end
 
