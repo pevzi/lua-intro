@@ -358,6 +358,6 @@ print(5) --> 5
 print("i'm a string") --> i'm a string
 print(true) --> true
 print(nil) --> nil
-print(print) --> function: 0x24d42a40
-print(math) --> table: 0x24d42a90
+print(function () end) --> function: 0x24d42a40
+print({}) --> table: 0x24d42a90
 ```
